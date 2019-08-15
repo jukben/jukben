@@ -1,6 +1,6 @@
 {
   "name": "jukben",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Haha... it's me!",
   "bin": {
     "jukben": "cli.js"
