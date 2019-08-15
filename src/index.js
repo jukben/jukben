@@ -1,1 +1,1 @@
-echo "It's me – jukben! https://jukben.cz"
+console.log("It's me – jukben! https://jukben.cz");
