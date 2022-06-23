@@ -12,6 +12,7 @@ If you'd like to know more or follow my 💭 thoughts more closely – [check my
 ## Talks
 > I have dedicated repository for talks I gave – [jukben/talks](https://github.com/jukben/talks)
 
+- [Frodo Baggins but with Federated GraphQL](https://www.youtube.com/watch?v=2pNw4dKxFrk)
 - [Fighting chaos in a monorepo](https://www.youtube.com/watch?v=qjcwXQCxQb4)
 
 ## Podcasts
