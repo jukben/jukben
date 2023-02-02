@@ -4,6 +4,7 @@ I'm passionate about scaling engineering, organization design, and leadership. I
 
 ### ✍️ Articles
 <!-- last–articles/start --> 
+- [The ultimate git flow: trunk-based development and stacked PRs for the win](https://jukben.codes/the-ultimate-git-flow-trunk-based-development-and-stacked-prs-for-the-win)
 - [Lessons Learned from Building Products: The Power of Outcomes over Outputs](https://jukben.codes/lessons-learned-from-building-products-the-power-of-outcomes-over-outputs)
 - [A Reflection on My Social Media Usage in the Era of Elon Musk](https://jukben.codes/a-reflection-on-my-social-media-usage-in-the-era-of-elon-musk)
 - [Scaling monorepo — to infinity and beyond!](https://jukben.codes/scaling-monorepo-to-infinity-and-beyond)
