@@ -15,8 +15,9 @@ I'm passionate about scaling engineering, organization design, and leadership. I
 ### 🎤 Spoken word
 
 #### My talks
-> I have dedicated repository for talks I gave – [jukben/talks](https://github.com/jukben/talks)
+> I have a dedicated repository for talks I gave – [jukben/talks](https://github.com/jukben/talks)
 
+- [🇨🇿 Co možná nevíte o React Dev Tools](https://www.youtube.com/watch?v=yG7yhaGQqg4)
 - [Frodo Baggins but with Federated GraphQL](https://www.youtube.com/watch?v=2pNw4dKxFrk)
 - [Fighting chaos in a monorepo](https://www.youtube.com/watch?v=qjcwXQCxQb4)
 
