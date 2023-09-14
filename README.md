@@ -1,6 +1,6 @@
-## 👋 Hey! I'm Jakub Beneš, Software Engineer based in Prague.
+## 👋 Hey! I'm Jakub Beneš, a Software Engineer based in Prague.
 
-I'm passionate about scaling engineering, organization design, and leadership. I'm a huge fan of web technologies and modern approaches within this field. Although I still consider myself a frontend-heavy engineer, I'm lately focusing much more on the whole stack and infra because there's often a low-hanging fruit that can deliver massive impact. I like to unlock such an opportunity. I'm not sure if I ever start liking a YAML, though. 🤓
+I'm passionate about scaling engineering, organizational design, and leadership. I'm a huge fan of web technologies and modern approaches within this field. While I'm a strong contributor on the frontend side, lately, I've been focusing more on the entire stack and infrastructure because there's often low-hanging fruit that can deliver a massive impact – and I enjoy seizing such opportunities. I'm not sure if I'll ever start liking YAML, though. 🤓
 
 ### ✍️ Articles
 <!-- last–articles/start --> 
@@ -13,15 +13,15 @@ I'm passionate about scaling engineering, organization design, and leadership. I
 - [One Yarn to Rule Them All](https://jukben.codes/one-yarn-to-rule-them-all)
 <!-- last–articles/end --> 
 
-### 🎤 Spoken word
+### 🎤 Spoken Word
 
-#### My talks
-> I have a dedicated repository for talks I gave – [jukben/talks](https://github.com/jukben/talks)
+#### My Talks
+> I maintain a dedicated repository for the talks I've given – [jukben/talks](https://github.com/jukben/talks)
 
 - [🇨🇿 Co možná nevíte o React Dev Tools](https://www.youtube.com/watch?v=yG7yhaGQqg4)
 - [Frodo Baggins but with Federated GraphQL](https://www.youtube.com/watch?v=2pNw4dKxFrk)
-- [Fighting chaos in a monorepo](https://www.youtube.com/watch?v=qjcwXQCxQb4)
+- [Fighting Chaos in a Monorepo](https://www.youtube.com/watch?v=qjcwXQCxQb4)
 
 #### Others
-- [From IC to manager and back](https://www.youtube.com/watch?v=RGyCmnO7iUk)
-- [🇨🇿 CZPodcast – Developer experience](https://open.spotify.com/episode/1se7TC0Ck8cNSHwarhE05r?si=8f5a5c5179104bf5)
+- [From IC to Manager and Back](https://www.youtube.com/watch?v=RGyCmnO7iUk)
+- [🇨🇿 CZPodcast – Developer Experience](https://open.spotify.com/episode/1se7TC0Ck8cNSHwarhE05r?si=8f5a5c5179104bf5)
