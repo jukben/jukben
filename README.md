@@ -23,5 +23,6 @@ I'm passionate about scaling engineering, organizational design, and leadership.
 - [Fighting Chaos in a Monorepo](https://www.youtube.com/watch?v=qjcwXQCxQb4)
 
 #### Others
+- [TechUncovered: Platform Frontend](https://www.youtube.com/watch?v=uCuBKmAGAXQ)
 - [From IC to Manager and Back](https://www.youtube.com/watch?v=RGyCmnO7iUk)
 - [🇨🇿 CZPodcast – Developer Experience](https://open.spotify.com/episode/1se7TC0Ck8cNSHwarhE05r?si=8f5a5c5179104bf5)
