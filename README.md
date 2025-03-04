@@ -4,6 +4,7 @@ I'm passionate about scaling engineering, organizational design, and leadership.
 
 ### ✍️ Articles
 <!-- last–articles/start --> 
+- [The Day My Product Leader Out-Engineered Me](https://jukben.codes/the-day-my-product-leader-out-engineered-me)
 - [Analyzing Your Webpack Bundle Like a Pro](https://jukben.codes/analyzing-your-webpack-bundle-like-a-pro)
 - [The Ultimate Git Flow: Trunk-Based Development and Stacked PRs for the Win](https://jukben.codes/the-ultimate-git-flow-trunk-based-development-and-stacked-prs-for-the-win)
 - [Lessons Learned from Building Products: The Power of Outcomes over Outputs](https://jukben.codes/lessons-learned-from-building-products-the-power-of-outcomes-over-outputs)
