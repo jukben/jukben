@@ -13,7 +13,7 @@ const KEY_TO_SECTION = {
   c: 'contact',
 }
 
-const CHROME_ROWS = 12
+const CHROME_ROWS = 14
 const SCROLLER_ROWS = 1
 
 export function App() {

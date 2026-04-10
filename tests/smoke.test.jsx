@@ -13,11 +13,12 @@ describe('App smoke test', () => {
   test('renders the menu row with all hotkeys', () => {
     const { lastFrame, unmount } = render(<App />)
     const frame = lastFrame() || ''
-    // The Chrome component renders the title (as ASCII art) and the menu
-    // Verify the app renders the title using BigText box-drawing characters
-    expect(/█|╗|║|╚/.test(frame)).toBe(true)
-    // Check for hotkey indicators (either from menu [A-Z] or scroller [a-z])
-    expect(/\[[A-Za-z]\]/.test(frame)).toBe(true)
+    expect(frame).toContain('[A]')
+    expect(frame).toContain('[W]')
+    expect(frame).toContain('[T]')
+    expect(frame).toContain('[G]')
+    expect(frame).toContain('[C]')
+    expect(frame).toContain('[Q]')
     unmount()
   })
 
