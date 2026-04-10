@@ -7,10 +7,8 @@ export default defineConfig({
     format: 'esm',
   },
   platform: 'node',
-  transform: {
-    jsx: {
-      runtime: 'automatic',
-      importSource: 'react',
-    },
+  jsx: {
+    runtime: 'automatic',
+    importSource: 'react',
   },
 })
