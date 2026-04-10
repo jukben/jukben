@@ -1,3 +1,2 @@
 #!/usr/bin/env node
-
-require("./src/index.js");
+import('./dist/jukben.js')
