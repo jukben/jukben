@@ -26,6 +26,9 @@ export function App() {
   const [panel, setPanel] = useState(null)
 
   useEffect(() => {
+    if (typeof stdout.on !== 'function') {
+      return
+    }
     const onResize = () => {
       setSize({
         columns: stdout.columns || 80,
