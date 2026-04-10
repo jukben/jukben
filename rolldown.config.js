@@ -7,6 +7,17 @@ export default defineConfig({
     format: 'esm',
   },
   platform: 'node',
+  external: [
+    'react',
+    'react/jsx-runtime',
+    'ink',
+    'ink-big-text',
+    'ink-gradient',
+    'chalk',
+  ],
+  moduleTypes: {
+    '.js': 'jsx',
+  },
   transform: {
     jsx: {
       runtime: 'automatic',
