@@ -1,6 +1,6 @@
-## 👋 Hey! I'm Jakub Beneš, a Software Engineer based in Prague.
+## 👋 Hey! I'm Jakub Beneš, a product engineer based in Prague.
 
-I'm passionate about scaling engineering, organizational design, and leadership. I'm a huge fan of web technologies and modern approaches within this field. While I'm a strong contributor on the frontend side, lately, I've been focusing more on the entire stack and infrastructure because there's often low-hanging fruit that can deliver a massive impact – and I enjoy seizing such opportunities. I'm not sure if I'll ever start liking YAML, though. 🤓
+I'm a builder with 10+ years of experience delivering end-to-end — from shaping what to build and why, through architecture and implementation, all the way to shipping with confidence. I started by shipping freeware games as a teenager, and haven't stopped building since. My roots are on the frontend, but I spend more and more time across the entire stack and infrastructure because there's often low-hanging fruit that can deliver massive impact — and I enjoy seizing those opportunities. Along the way, I've led teams, designed foundational systems, and mentored engineers across organizations. I do my best work in small, autonomous teams where engineers own outcomes. Lately, I'm learning the dark arts of agentic development and tuning my workflow for a world where half the keyboard isn't mine.
 
 ### ✍️ Articles
 <!-- last–articles/start --> 
