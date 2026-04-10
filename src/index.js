@@ -1,1 +1,1 @@
-console.log("It's me – jukben! https://jukben.codes");
+console.log("jukben cli — scaffolding working")
