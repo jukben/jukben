@@ -4,6 +4,7 @@ I'm a builder with 10+ years of experience delivering end-to-end — from shapin
 
 ### ✍️ Articles
 <!-- last–articles/start --> 
+- [Calendar or it didn't happen](https://jukben.codes/calendar-or-it-didn-t-happen)
 - [The Day My Product Leader Out-Engineered Me](https://jukben.codes/the-day-my-product-leader-out-engineered-me)
 - [Analyzing Your Webpack Bundle Like a Pro](https://jukben.codes/analyzing-your-webpack-bundle-like-a-pro)
 - [The Ultimate Git Flow: Trunk-Based Development and Stacked PRs for the Win](https://jukben.codes/the-ultimate-git-flow-trunk-based-development-and-stacked-prs-for-the-win)
