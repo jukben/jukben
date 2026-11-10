@@ -1,9 +1,22 @@
 {
   "name": "jukben",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Haha... it's me!",
+  "type": "module",
   "bin": {
     "jukben": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "src/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node --test",
+    "prepublishOnly": "npm test"
   },
   "license": "MIT"
 }
