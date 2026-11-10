@@ -1,2 +1,5 @@
 #!/usr/bin/env node
-import('./dist/jukben.js')
+// Flags: --plain (print the card only), --plasma (plasma background), --stats (fps/bandwidth overlay)
+import { main } from './src/terminal.js'
+
+main()

@@ -8,26 +8,15 @@
   },
   "files": [
     "cli.js",
-    "dist/",
-    "README.md"
+    "src/"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "build": "rolldown -c",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "prepublishOnly": "npm run build && npm test"
-  },
-  "dependencies": {
-    "chalk": "^5.3.0",
-    "ink": "^5.0.0",
-    "ink-big-text": "^2.0.0",
-    "ink-gradient": "^3.0.0",
-    "react": "^18.3.0"
-  },
-  "devDependencies": {
-    "ink-testing-library": "^4.0.0",
-    "rolldown": "^1.0.0-beta",
-    "vitest": "^2.0.0"
+    "start": "node cli.js",
+    "test": "node --test",
+    "prepublishOnly": "npm test"
   },
   "license": "MIT"
 }

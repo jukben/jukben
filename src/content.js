@@ -1,34 +1,54 @@
-export const tagline = 'jukben · product engineer · prague'
+import { GREETZ } from './color.js'
+import { dotted } from './text.js'
 
-export const menu = [
-  { key: 'A', label: 'bout', section: 'about' },
-  { key: 'W', label: 'riting', section: 'writing' },
-  { key: 'T', label: 'alks', section: 'talks' },
-  { key: 'G', label: 'reetz', section: 'greetz' },
-  { key: 'C', label: 'ontact', section: 'contact' },
-  { key: 'Q', label: 'uit', section: null },
+export const CONTACT = [
+  { label: 'email', url: 'mailto:jukben@gmail.com', text: 'jukben@gmail.com' },
+  { label: 'web', url: 'https://jukben.codes', text: 'jukben.codes' },
+  { label: 'github', url: 'https://github.com/jukben', text: 'github.com/jukben' },
+  { label: 'linkedin', url: 'https://linkedin.com/in/jukben', text: 'linkedin.com/in/jukben' },
 ]
 
-const scrollerFragments = [
-  'welcome to jukben.codes',
-  'hit [a] to read the about',
-  'new article: the day my product leader out-engineered me',
-  'currently building calendarpipe & advocate',
-  'shoutouts to everyone still learning in public',
-  "press [q] to quit, or don't",
-  'keep on sceneing',
+export const SCROLL_TEXT =
+  [
+    'JUKBEN PRESENTS VERSION 2.0 OF HIS TERMINAL BUSINESS CARD',
+    'PRODUCT ENGINEER FROM PRAGUE - BUILDING SOFTWARE SINCE 14',
+    'NEW ARTICLE: THE DAY MY PRODUCT LEADER OUT-ENGINEERED ME',
+    'CURRENTLY: ADVOCATE TECHNOLOGIES & CALENDARPIPE',
+    'HIT [V] FOR THE CV, [F] FOR ANOTHER EFFECT, [Q] TO QUIT',
+    'GREETINGS TO EVERYONE STILL LEARNING IN PUBLIC',
+    'KEEP ON SCENEING',
+  ].join('   ·   ') + '   ·   '
+
+export const ROLE = 'product engineer · prague'
+
+export const HOME = [
+  'jakub beneš — building software since 14.',
+  'freeware games → end-to-end product work.',
+  '',
+  'now .....: advocate · calendarpipe',
+  'before ..: productboard · outreach',
 ]
 
-export const scrollerText = '»»» ' + scrollerFragments.join(' »»» ') + ' »»» '
+// `hot` is the index of the hotkey letter in the label.
+export const BUTTONS = [
+  { label: 'About', hot: 0, action: 'about' },
+  { label: 'CV', hot: 1, action: 'cv' },
+  { label: 'Greetz', hot: 0, action: 'greetz' },
+  { label: 'Contact', hot: 0, action: 'contact' },
+  { label: 'Quit', hot: 0, action: 'quit' },
+]
 
-export const panels = {
+export const PANELS = {
   about: {
-    title: 'about',
-    body: [
-      'JUKBEN',
-      'product engineer · prague',
+    title: 'FILE_ID.DIZ',
+    lines: [
+      'Name .......: jakub beneš',
+      'Role .......: product engineer',
+      'Location ...: prague, cz',
+      'Experience .: 15+ years',
+      'Release ....: 2026-11',
       '',
-      'builder with 10+ years of experience delivering end-to-end.',
+      'builder with 15+ years of experience delivering end-to-end.',
       "started by shipping freeware games as a teenager, and haven't",
       'stopped since. roots on the frontend, more time these days',
       'across the whole stack and infrastructure.',
@@ -40,39 +60,49 @@ export const panels = {
       "workflow for a world where half the keyboard isn't mine.",
     ],
   },
-  writing: {
-    title: 'writing',
-    body: [
-      '1. the day my product leader out-engineered me',
-      '2. analyzing your webpack bundle like a pro',
-      '3. the ultimate git flow: trunk-based dev & stacked prs',
-      '4. outcomes over outputs',
-      '5. reflection on social media in the era of elon musk',
-      '6. scaling monorepo: to infinity and beyond',
-      '7. how we revamped rfc process at productboard',
-      '8. one yarn to rule them all',
+  cv: {
+    title: 'CV.NFO',
+    lines: [
+      'Jakub Beneš · Product Engineer · AI & Agentic Systems',
+      '15+ years of end-to-end delivery, first freeware games at 14. today i',
+      'build agent-first: parallel coding agents orchestrated with orca, kept',
+      'in check by verification harnesses. best in small, autonomous teams.',
       '',
-      'read more at jukben.codes',
-    ],
-  },
-  talks: {
-    title: 'talks',
-    body: [
-      'my talks:',
-      '  · co možná nevíte o react dev tools',
-      '  · frodo baggins but with federated graphql',
-      '  · fighting chaos in a monorepo',
+      'experience:',
+      '2026–now   Lead Product Engineer .... Advocate Technologies',
+      '2026–now   Founder .................. CalendarPipe',
+      '2024–2026  Senior Staff Engineer .... Productboard',
+      '2022–2024  Senior Staff Engineer .... Outreach',
+      '2018–2022  Sr Eng → EM → Sr Staff ... Productboard',
+      '2017–2018  React Native Engineer .... Callstack',
       '',
-      'appearances:',
-      '  · the real role of staff/principal developers',
-      '  · from ic to manager and back',
-      '  · techuncovered: platform frontend',
+      'highlights:',
+      ' · agentic compliance ui, squad of one, idea → prod in under a month',
+      ' · eval harness (golden datasets, gepa) holding satisfaction at ~90%',
+      ' · calendarpipe: calendar sync + agent api, 20 paying customers',
+      ' · federated graphql adopted org-wide, ~22k mau at 2,600 req/min',
+      ' · founded the frontend platform team, managed up to 7 engineers',
+      ' · datadog observability as terraform modules, adopted org-wide',
+      '',
+      'stack:',
+      ' typescript · react · graphql · nestjs · next.js · llms · evals',
+      ' mongodb · postgresql · redis · cloudflare · aws · terraform',
+      '',
+      'community:',
+      ' reactgirls mentor & speaker · 2023',
+      '',
+      'education:',
+      ' brno university of technology · information technology · 2013–2015',
+      '',
+      'languages:',
+      ' czech — native · english — professional',
     ],
   },
   greetz: {
-    title: 'greetz',
-    body: [
-      '            ═══ GREETZ ═══',
+    title: 'GREETZ.NFO',
+    color: GREETZ,
+    lines: [
+      'greetings fly out to:',
       '',
       'productboard frontend platform crew · you know who you are',
       'the outreach settings-platform survivors',
@@ -83,17 +113,12 @@ export const panels = {
       'the monorepo tooling gang',
       'anyone still using federated graphql in anger',
       '',
-      "     special greetz to the warez scene of '98",
-      '        you taught us what intros meant',
+      "special greetz to the warez scene of '98",
+      'you taught us what intros meant',
     ],
   },
   contact: {
-    title: 'contact',
-    body: [
-      '  email    jukben@gmail.com',
-      '  web      jukben.codes',
-      '  github   github.com/jukben',
-      '  linkedin linkedin.com/in/jukben',
-    ],
+    title: 'CONTACT.NFO',
+    lines: CONTACT.map((c) => `${dotted(c.label)} ${c.text}`),
   },
 }
