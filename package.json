@@ -2,6 +2,13 @@
   "name": "jukben",
   "version": "2.0.1",
   "description": "Terminal business card of Jakub Beneš, product engineer from Prague. Try `npx jukben`.",
+  "keywords": [
+    "business-card",
+    "npx-card",
+    "cli",
+    "terminal",
+    "resume"
+  ],
   "type": "module",
   "bin": {
     "jukben": "cli.js"
