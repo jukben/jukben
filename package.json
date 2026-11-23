@@ -1,7 +1,7 @@
 {
   "name": "jukben",
   "version": "2.0.1",
-  "description": "Haha... it's me!",
+  "description": "Terminal business card of Jakub Beneš, product engineer from Prague. Try `npx jukben`.",
   "type": "module",
   "bin": {
     "jukben": "cli.js"
