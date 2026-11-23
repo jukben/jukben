@@ -9,6 +9,7 @@
     "terminal",
     "resume"
   ],
+  "author": "Jakub Beneš (https://jukben.codes)",
   "type": "module",
   "bin": {
     "jukben": "cli.js"
