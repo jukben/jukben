@@ -111,9 +111,6 @@ export const PANELS = {
       'the reactgirls community',
       'the monorepo tooling gang',
       'anyone still using federated graphql in anger',
-      '',
-      "special greetz to the warez scene of '98",
-      'you taught us what intros meant',
     ],
   },
   contact: {
